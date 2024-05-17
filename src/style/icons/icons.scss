@@ -1,0 +1,16 @@
+#icons{
+  padding: 20px 0;
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input{
+      width: 551px;
+      height: 40px;
+    }
+    &_images{
+      display: flex;
+      gap: 16px;
+    }
+  }
+}

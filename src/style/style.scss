@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  transition: .4s;
+  border: none;
+  outline: none;
+}
+
+boby{
+  font-family: Ubuntu, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+@import "header/header";
+@import "icons/icons";
+@import "information/information";
+@import "button/button";
